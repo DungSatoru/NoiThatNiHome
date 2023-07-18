@@ -1,0 +1,104 @@
+@media screen and (max-width: 1200px) {
+    .header__brand img {
+        left: 0;
+    }
+
+    #Slider {
+        height: 500px;
+    }
+
+    .content__project-title::before,
+    .content__project-title::after {
+        display: none;
+    }
+
+    .content_why_choose-item {
+        min-height: 450px;
+    }
+}
+
+/* Laptop nhỏ */
+@media screen and (max-width: 992px) {
+    .screenMD {
+        display: flex;
+    }
+
+    .header__brand,
+    #Nav {
+        display: none;
+    }
+
+    #Slider {
+        height: 450px;
+    }
+
+    .content_why_choose-item {
+        min-height: 560px;
+    }
+}
+
+/* Tablet */
+@media screen and (max-width: 768px) {
+    #Slider {
+        height: 400px;
+    }
+
+    .content__project,
+    .content__Newproject,
+    .Construction_cost_estimates {
+        padding: 20px 0 !important;
+    }
+
+    .content__project-title {
+        font-size: 20px;
+    }
+
+    .content__project-list {
+        font-size: 13px;
+    }
+
+    .Construction_cost_estimates .row.g-3 {
+        flex-direction: column-reverse;
+    }
+
+    .content_why_choose-item {
+        min-height: 250px;
+    }
+
+    .footer__wrapper {
+        padding: 10px !important;
+    }
+
+    .footer__info img {
+        width: 100px !important;
+    }
+
+    .content__project-viewer--link {
+        padding: 5px;
+        text-align: center;
+        position: relative !important;
+        background-color: #00000056;
+    }
+
+    .content__project-viewer--link a {
+        display: block !important;
+        color: var(--primary-color);
+        text-shadow: 1px 1px 1px #333;
+    }
+}
+
+/* Phone */
+@media screen and (max-width: 576px) {
+    #Slider {
+        height: 200px;
+    }
+
+    .getSale {
+        font-size: 12px;
+        padding: 10px 10px;
+    }
+
+    .content__project-list {
+        font-size: 12px;
+    }
+}
